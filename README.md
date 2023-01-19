@@ -1,6 +1,8 @@
 # Blanchard-Lab
 
-##Conda.sh 
+## Conda
+
+#### Conda.sh 
 To use conda in a slurm file, you need to find the conda.sh file in your .conda directory for the source command. The following script will help you find it.  
 conda info | grep -i 'base environment' . If not, use ood.unity.rc.umass.edu to help find it.
 
