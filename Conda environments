@@ -1,0 +1,10 @@
+conda create --name mamba
+conda install mamba -n mamba -c conda-forge
+conda activate mamba 
+
+
+To download prokka
+mamba create -n prokka -c conda-forge -c bioconda prokka
+
+To download GTDBTK
+mamba create -n gtdbtk-2.1.1 -c conda-forge -c bioconda gtdbtk=2.1.1
